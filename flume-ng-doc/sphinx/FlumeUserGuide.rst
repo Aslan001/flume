@@ -4646,6 +4646,7 @@ org.apache.flume.Source                                       syslogtcp         
 org.apache.flume.Source                                       multiport_syslogtcp     org.apache.flume.source.MultiportSyslogTCPSource
 org.apache.flume.Source                                       syslogudp               org.apache.flume.source.SyslogUDPSource
 org.apache.flume.Source                                       spooldir                org.apache.flume.source.SpoolDirectorySource
+org.apache.flume.Source                                       redisdir                org.apache.flume.source.RedisDirectorySource
 org.apache.flume.Source                                       http                    org.apache.flume.source.http.HTTPSource
 org.apache.flume.Source                                       thrift                  org.apache.flume.source.ThriftSource
 org.apache.flume.Source                                       jms                     org.apache.flume.source.jms.JMSSource

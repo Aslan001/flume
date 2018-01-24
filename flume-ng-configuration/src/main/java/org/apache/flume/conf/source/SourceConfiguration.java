@@ -214,8 +214,14 @@ public class SourceConfiguration extends ComponentConfiguration {
      *
      * @see org.apache.flume.source.taildir.TaildirSource
      */
-    TAILDIR("org.apache.flume.source.taildir.TaildirSourceConfiguration")
-    ;
+    TAILDIR("org.apache.flume.source.taildir.TaildirSourceConfiguration"),
+
+    /**
+     * Redis directory source
+     *
+     * @see org.apache.flume.source.RedisDirectorySource
+     */
+    REDISDIR("org.apache.flume.conf.source.RedisDirectorySourceConfiguration");
 
     private String srcConfigurationName;
 

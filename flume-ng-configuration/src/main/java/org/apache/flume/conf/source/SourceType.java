@@ -110,7 +110,14 @@ public enum SourceType {
    *
    * @see org.apache.flume.source.taildir.TaildirSource
    */
-  TAILDIR("org.apache.flume.source.taildir.TaildirSource")
+  TAILDIR("org.apache.flume.source.taildir.TaildirSource"),
+
+  /**
+   * Redis directory source
+   *
+   * @see org.apache.flume.source.RedisDirectorySource
+   */
+  REDISDIR("org.apache.flume.source.RedisDirectorySource")
   ;
 
   private final String sourceClassName;
